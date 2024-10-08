@@ -16,15 +16,14 @@ function TextInputForm({inputType, handleFormSubmit, handleTextInputChange, hand
                 <Button
                     text={inputType==="password"?"Show":"Hide"}
                     styleType={"warning"}
-                    onChangeHandler={handleTextInputChange}
                     onClickHandler={handleShowHideClick}
                 />
             </div>
             <div>
                 <Button
-                    type={"submit"}
-                    text={"submit"}
-                    styleType={"primary"}
+                    type="submit"
+                    text="Submit"
+                    styleType="primary"
                 />
             </div>
         </form>

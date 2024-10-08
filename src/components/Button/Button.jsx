@@ -1,7 +1,7 @@
 import getButtonStyle from './getButtonStyle'; 
 function Button({text, onClickHandler, styleType="primary", type="button"}) {
 
-    console.log(text);
+    // console.log(text);
     
     return (
         <button

@@ -1,6 +1,5 @@
 import { Routes, Route } from 'react-router-dom'
 import './App.css'
-import TextInputFormContainer from './components/TextInputForm/TextInputFormContainer'
 import StartGame from './pages/StartGame'
 import PlayGame from './pages/PlayGame'
 

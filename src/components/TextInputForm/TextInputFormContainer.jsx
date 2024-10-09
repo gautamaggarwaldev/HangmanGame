@@ -14,7 +14,7 @@ function TextInputFormContainer() {
         console.log("submitted", value); 
         if(value) {
             //if we have something in a value then we have to navigate in play page
-             navigate("/play")
+             navigate(`/play`, {state : {wordSelected : value}})
              
             {/*setTimeout(()=> {
                 navigate("/play")
